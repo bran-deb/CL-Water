@@ -29,10 +29,10 @@
     "eslint-plugin-n": "^15.2.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.29.4",
+    "standard": "^17.0.0",
     "vite": "^2.9.5"
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
-  ]
+  "eslintConfig": {
+    "extends": "./node_modules/standard/slintrc.json"
+  }
 }
